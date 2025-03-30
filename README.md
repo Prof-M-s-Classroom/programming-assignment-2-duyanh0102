@@ -8,8 +8,10 @@
 ---
 
 ## **1. Project Overview**
+
 This project is a simple text-based RPG game that uses a binary decision tree to tell a story. Each point in the story is stored as a node, and players move through the game by picking between two choices at each step. The tree is built using data from a text file, and the game ends when the player reaches a node with no further paths.
 At each step, the player is asked to choose either option "1" or "2", which sends them down the left or right path in the tree. Once they hit a leaf node (a node that doesn't lead anywhere else), the story ends and the game finishes.
+
 ---
 
 ## **2. Folder & File Structure**
