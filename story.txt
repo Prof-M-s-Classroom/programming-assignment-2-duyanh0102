@@ -1,6 +1,30 @@
-1 | You wake up in a forest clearing. There are two paths. | 2 | 3
-2 | You follow the path to the left and encounter a river. | 4 | 5
-3 | You go right and find an old cabin. | 5 | 6
-4 | You swim across the river and find a treasure chest. | -1 | -1
-5 | You find a hidden passageway that leads to a secret room. | 7 | -1
-6 | The cabin is empty. You find a trapdoor leading downwards. | -1
+1|You awaken in a magical forest filled with glowing trees and floating islands. Do you follow the flower path or climb the cloud stairs?|2|3
+2|On the flower path, you meet a fairy offering you a mysterious potion. Do you drink it or politely decline?|4|5
+3|Climbing the cloud stairs, you encounter a phoenix guarding a glowing portal. Do you speak with the phoenix or quietly pass by?|6|7
+4|Drinking the potion, you suddenly gain the power of flight. Do you fly toward the floating city or the enchanted mountains?|8|9
+5|Politely declining, you continue down the path and find an ancient gate. Do you open it or leave it alone?|10|11
+6|The phoenix asks you a riddle. Do you answer it or avoid it and move forward?|12|13
+7|Passing by, you find a sparkling pool that shows visions. Do you step into the pool or ignore it?|14|15
+8|In the floating city, you're offered the role of sky guardian. Do you accept or seek adventure elsewhere?|16|17
+9|At the enchanted mountains, you find a hidden cave. Do you explore inside or stay outside?|18|19
+10|Behind the gate, there's a glowing treasure chest. Do you open the chest or turn back?|16|20
+11|Leaving the gate untouched, you meet an elf who leads you safely home, enriched by your experiences.|-1|-1
+12|Solving the phoenix's riddle grants you magical wisdom. Do you use your wisdom to help others or pursue personal goals?|21|22
+13|Ignoring the riddle, you become lost but eventually find a peaceful village where you settle happily.|-1|-1
+14|Stepping into the pool, you're transported to a crystal forest. Do you explore further or look for an exit?|21|23
+15|Ignoring the pool, you safely return home, carrying lessons from your journey.|-1|-1
+16|Accepting the role, you become a legendary guardian, respected by all.|-1|-1
+17|Seeking adventure, you discover distant lands and exciting challenges.|-1|-1
+18|Inside the cave, you find a magical sword. Do you take it or leave it?|24|22
+19|Outside, you find peace in nature, deciding to settle nearby happily.|-1|-1
+20|Turning back, you safely return home, treasuring your peaceful journey.|-1|-1
+21|Your journey makes you a wise figure whose advice benefits many people across the lands.|-1|-1
+22|Choosing personal goals, you achieve great things and fulfill your dreams.|-1|-1
+23|Finding an exit, you return home with incredible stories and new strength.|-1|-1
+24|Granting the sword makes you a legendary hero celebrated across kingdoms.|-1|-1
+
+
+
+
+
+
