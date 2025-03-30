@@ -28,8 +28,10 @@ At each step, the player is asked to choose either option "1" or "2", which send
 ---
 
 ## **3. Decision Tree Construction**
+
 The decision tree is built by reading the story file line-by-line. Each line is split using a delimiter (|) into four parts: the event number, the description, and the event numbers for the left and right options.
 Each story line is turned into a Story object, which is then wrapped in a node and stored in a map. After all nodes are created, I loop through the map and connect the nodes based on the left and right event numbers. If a node's left or right number is -1, that means it's a dead end and we set the pointer to nullptr.
+
 ---
 
 ## **4. Game Traversal**
