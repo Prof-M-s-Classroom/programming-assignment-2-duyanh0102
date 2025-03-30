@@ -95,7 +95,7 @@ public:
             }
             // Ask for user input 1 or 2 as left or right
             int choice;
-            cout << "Make your decision (1 or 2): ";
+            cout << "Enter 1 or 2: ";
             cin >> choice;
             // After taking user input this function will move to the next part of story
             if (choice == 1 && current->left != nullptr) {
