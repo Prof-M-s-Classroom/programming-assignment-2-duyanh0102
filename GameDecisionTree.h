@@ -90,7 +90,7 @@ public:
 
             // When we reach the end of story which is two null child nodes this will print out the text
             if (current->left == nullptr && current->right == nullptr) {
-                cout << "[You make a wise choices ^_^]" << endl;
+                cout << "[Your choices will go with you. The end]" << endl;
                 break;
             }
             // Ask for user input 1 or 2 as left or right
@@ -104,7 +104,7 @@ public:
                 current = current->right;
             } else {
                 // This text will print when user input is out of reach
-                cout << "@_@ number should be 1 or 2. Please try again!" << endl;
+                cout << "Number should be 1 or 2. Please try again!" << endl;
             }
         }
     }
