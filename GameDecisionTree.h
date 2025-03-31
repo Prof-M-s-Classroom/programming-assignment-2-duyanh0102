@@ -97,6 +97,14 @@ public:
             int choice;
             cout << "Enter 1 or 2: ";
             cin >> choice;
+            
+            if (cin.fail()) {
+             cin.clear();              
+             cin.ignore(1000, '\n');   
+             cout << "Invalid input. Please enter a number (1 or 2)." << endl;
+             continue;                 
+}
+
             // After taking user input this function will move to the next part of story
             if (choice == 1 && current->left != nullptr) {
                 current = current->left;
